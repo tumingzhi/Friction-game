@@ -100,7 +100,7 @@ def main():
     # 根据背景图片指定游戏界面尺寸
     bg_size = width, height = 1024, 681
     screen = pygame.display.set_mode(bg_size)
-    pygame.display.set_caption("Play the ball - FishC Demo")
+    pygame.display.set_caption("Friction game")
 
     background = pygame.image.load(bg_image).convert_alpha()
 
